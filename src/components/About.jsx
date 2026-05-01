@@ -13,7 +13,7 @@ const stats = [
   { value: '1+',  label: 'Years Exp.' },
   { value: '5+', label: 'Projects' },
   { value: 'some', label: 'Client' },
-  { value: '1',  label: 'Certs' },
+  { value: '-',  label: 'Certs' },
 ]
 
 export default function About() {
