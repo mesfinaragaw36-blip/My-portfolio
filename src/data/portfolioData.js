@@ -74,8 +74,8 @@ export const projects = [
     image: "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=80",
     tags: ["HTML", "CSS"],
     category: "frontend",
-    liveUrl: "https://puppylo.netlify.app",
-    githubUrl: "#",
+    liveUrl: "https://puppy-2.netlify.app",
+    githubUrl: "https://github.com/mesfinaragaw36-blip/puppy-lovers",
     featured: true,
   },
       {
