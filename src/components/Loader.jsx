@@ -19,7 +19,7 @@ export default function Loader() {
           >
             <div className="w-20 h-20 rounded-2xl bg-gradient-to-br from-[#6c63ff] to-[#00d4ff] flex items-center justify-center text-3xl font-bold text-white shadow-lg shadow-purple-500/30">
 
-            <img src="/m - Copy.jpg" className="w-20 h-20 rounded-2xl object-cover object-top" />
+            <img src="/m.jpg" className="w-20 h-20 rounded-2xl object-cover object-top" />
            
             </div>
             <motion.div
