@@ -62,8 +62,8 @@ export const projects = [
     image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=600&q=80",
     tags: ["HTML", "CSS"],
     category: "frontend",
-    liveUrl: "https://app-1-web.netlify.app",
-    githubUrl: "https://github.com/mesfinaragaw36-blip/apple_website_Demo",
+    liveUrl: "https://appweb-2.netlify.app",
+    githubUrl: "https://github.com/mesfinaragaw36-blip/Apple_website_Demo",
     featured: false,
   },
 
