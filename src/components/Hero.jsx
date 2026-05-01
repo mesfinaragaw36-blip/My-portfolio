@@ -102,7 +102,7 @@ export default function Hero({ darkMode }) {
           }}
         >
           <img
-            src="/m - Copy.jpg"
+            src="/m.jpg"
             alt="Mesfin Aragaw"
             className="w-full h-full object-cover object-top"
           />
