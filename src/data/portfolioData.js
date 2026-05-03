@@ -57,7 +57,7 @@ export const projects = [
   },
     {
     id: 6,
-    title: "Evangad forum website",
+    title: "Evangad Forum",
     description: "Evangadi Networks Q&A is an online forum platform where users can ask questions, share knowledge, and help each other by posting answers. It provides a simple and efficient way to connect people and solve problems together.",
     image: "/evan.png",
     tags: ["HTML", "CSS", "React","node.js", "mysql"],
