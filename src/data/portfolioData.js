@@ -56,6 +56,17 @@ export const projects = [
     featured: false,
   },
     {
+    id: 6,
+    title: "Evangad forum website",
+    description: "Evangadi Networks Q&A is an online forum platform where users can ask questions, share knowledge, and help each other by posting answers. It provides a simple and efficient way to connect people and solve problems together.",
+    image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=600&q=80",
+    tags: ["HTML", "CSS", "React","node.js", "mysql"],
+    category: "fullstack",
+    liveUrl: "https://evangad-f.netlify.app",
+    githubUrl: "https://github.com/mesfinaragaw36-blip/Evangadi-Forum",
+    featured: true,
+  },
+    {
     id:2,
     title: "Apple Website",
     description: "This is a modern Apple-inspired frontend website built with a clean and minimal UI design. It showcases Apple products with smooth layout, responsive design, and user-friendly navigation. The page focuses on delivering a premium visual experience similar to Apple official website style.",
@@ -90,17 +101,7 @@ export const projects = [
     featured: true,
   },
 
-  {
-    id: 6,
-    title: "library Management System",
-    description: "A Library Management System is a software application designed to efficiently manage library operations such as book cataloging, member registration, borrowing, and returns. It helps librarians and users easily search, track, and organize library resources in a fast and systematic way.",
-    image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=600&q=80",
-    tags: ["HTML", "CSS", "Javascript","PHP"],
-    category: "fullstack",
-    liveUrl: "#",
-    githubUrl: "#",
-    featured: true,
-  },
+
 ];
 
 export const experience = [
