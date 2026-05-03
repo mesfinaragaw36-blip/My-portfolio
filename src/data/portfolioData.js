@@ -59,7 +59,7 @@ export const projects = [
     id: 6,
     title: "Evangad forum website",
     description: "Evangadi Networks Q&A is an online forum platform where users can ask questions, share knowledge, and help each other by posting answers. It provides a simple and efficient way to connect people and solve problems together.",
-    image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&q=80",
+    image: "/evan.png",
     tags: ["HTML", "CSS", "React","node.js", "mysql"],
     category: "fullstack",
     liveUrl: "https://evangad-f.netlify.app",
