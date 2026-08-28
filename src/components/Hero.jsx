@@ -226,7 +226,8 @@ export default function Hero({ darkMode }) {
         <motion.a
           whileHover={{ scale: 1.06 }}
           whileTap={{ scale: 0.95 }}
-          href={personalInfo.cvLink}
+          href="/cv/Mesfin_Aragaw_cv.pdf"
+          download="Mesfin_Aragaw_cv.pdf"
           className="px-7 py-3 rounded-full font-semibold text-sm flex items-center gap-2"
           style={{
             background: 'transparent',
