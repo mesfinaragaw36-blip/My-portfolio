@@ -44,8 +44,32 @@ export const skills = {
 
 export const projects = [
 
+      {
+    id:1,
+    title: "Etio Car Rental system",
+    description: "Ethio Car Rental System is a web-based platform that makes renting cars in Ethiopia simple, fast, and convenient. It allows customers to browse and book vehicles while administrators manage cars, customers, reservations, and payments.",
+    image: "/public/ethiocarrental.jpg",
+    tags: ["HTML","Css", "javascript","React","php","laravel",],
+    category: "fullstack",
+    liveUrl: "https://github.com/mesfinaragaw36-blip/cafe-3",
+    githubUrl: "https://github.com/mesfinaragaw36-blip/cafe-3",
+    featured: true,
+  },
+
+    {
+    id:6,
+    title: "zed shiro Menu",
+    description: "Discover the authentic taste of Ethiopia at Zed Shiro, featuring rich traditional flavors, fresh ingredients, and dishes made with love.",
+    image: "/public/menu.jpg",
+    tags: ["HTML","Css", "javascript","React",],
+    category: "frontend",
+    liveUrl: "https://zedshiro.netlify.app",
+    githubUrl: "https://github.com/mesfinaragaw36-blip/zed_shiro",
+    featured: true,
+  },
+
   {
-    id: 1,
+    id: 2,
     title: "My Portfolio",
     description: "A passionate web developer focused on building responsive and user-friendly websites and applications with modern technologies.",
     image: "/m4.jpg",
@@ -56,7 +80,7 @@ export const projects = [
     featured: false,
   },
     {
-    id: 6,
+    id: 3,
     title: "Evangad Forum",
     description: "Evangadi Networks Q&A is an online forum platform where users can ask questions, share knowledge, and help each other by posting answers. It provides a simple and efficient way to connect people and solve problems together.",
     image: "/evan.png",
@@ -67,7 +91,7 @@ export const projects = [
     featured: true,
   },
     {
-    id:2,
+    id:4,
     title: "Apple Website",
     description: "This is a modern Apple-inspired frontend website built with a clean and minimal UI design. It showcases Apple products with smooth layout, responsive design, and user-friendly navigation. The page focuses on delivering a premium visual experience similar to Apple official website style.",
     image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=600&q=80",
@@ -79,7 +103,7 @@ export const projects = [
   },
 
   {
-    id: 4,
+    id: 5,
     title: "puppy lovers",
     description: "A joyful space for puppy lovers to explore cute moments, learn, and celebrate their furry friends.” 🐶✨",
     image: "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=80",
@@ -87,17 +111,6 @@ export const projects = [
     category: "frontend",
     liveUrl: "https://puppy-2.netlify.app",
     githubUrl: "https://github.com/mesfinaragaw36-blip/puppy-lovers",
-    featured: true,
-  },
-      {
-    id:5,
-    title: "Cafe Managment System",
-    description: "A responsive frontend cafe management system featuring menu display, ordering interface, and smooth user experience. Built with a modern UI stack for performance and scalability.",
-    image: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=600&q=80",
-    tags: ["HTML","Css", "javascript",],
-    category: "frontend",
-    liveUrl: "https://cafe-2.netlify.app",
-    githubUrl: "https://github.com/mesfinaragaw36-blip/cafe-3",
     featured: true,
   },
 
@@ -144,7 +157,7 @@ export const experience = [
     description: "Studying Computer Science (Batch of 2016). Focused on software engineering, algorithms, and web technologies. Active in coding practice and continuously improving problem-solving and programming skills.",
     tags: ["Algorithms", "Data Structures", "Software Engineering"],
     icon: "🎓",
-  },
+  }, 
 ];
 
 // export const certifications = [
