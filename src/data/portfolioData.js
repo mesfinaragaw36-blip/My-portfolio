@@ -79,6 +79,17 @@ export const projects = [
     githubUrl:"https://github.com/mesfinaragaw36-blip/My-portfolio",
     featured: false,
   },
+  {
+    id: 7,
+    title: "cafe menu",
+    description: "A simple and elegant cafe menu website that showcases the menu items, prices, and special offers of a cafe or restaurant. It provides a user-friendly interface for customers to explore the menu and make informed choices.",
+    image: "/public/cafe image.jpg",
+    tags: ["HTML", "CSS", "JavaScript"],
+    category: "frontend",
+    liveUrl: "https://mayac.netlify.app",
+    githubUrl: "https://github.com/mesfinaragaw36-blip/Cafe-Menu-System",
+    featured: false,
+  },
     {
     id: 3,
     title: "Evangad Forum",
