@@ -51,8 +51,8 @@ export const projects = [
     image: "/ethiocarrental.jpg",
     tags: ["HTML","Css", "javascript","React","php","laravel",],
     category: "fullstack",
-    liveUrl: "https://github.com/mesfinaragaw36-blip/cafe-3",
-    githubUrl: "https://github.com/mesfinaragaw36-blip/cafe-3",
+    liveUrl: "https://car-rental-system-66dz.onrender.com/",
+    githubUrl: "https://github.com/mesfinaragaw36-blip/car_rental_system",
     featured: true,
   },
 

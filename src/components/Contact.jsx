@@ -27,15 +27,63 @@ export default function Contact() {
 
   const handleChange = (e) => setForm({ ...form, [e.target.name]: e.target.value })
 
-  const handleSubmit = async (e) => {
-    e.preventDefault()
-    setSending(true)
-    await new Promise(r => setTimeout(r, 1500))
-    setSending(false)
+ 
+const handleSubmit = async (e) => {
+  e.preventDefault()
+
+  if (sending) return
+
+  setSending(true)
+  setSent(false)
+
+  try {
+    const accessKey = import.meta.env.VITE_WEB3FORMS_ACCESS_KEY
+
+    if (!accessKey) {
+      throw new Error('Contact form access key is missing.')
+    }
+
+    const response = await fetch('https://api.web3forms.com/submit', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        Accept: 'application/json',
+      },
+      body: JSON.stringify({
+        access_key: accessKey,
+        name: form.name,
+        email: form.email,
+        subject: form.subject,
+        message: form.message,
+        from_name: 'Mesfin Aragaw Portfolio',
+        replyto: form.email,
+      }),
+    })
+
+    const result = await response.json()
+
+    if (!response.ok || !result.success) {
+      throw new Error(result.message || 'Failed to send your message.')
+    }
+
     setSent(true)
-    setForm({ name: '', email: '', subject: '', message: '' })
+    setForm({
+      name: '',
+      email: '',
+      subject: '',
+      message: '',
+    })
+
     setTimeout(() => setSent(false), 4000)
+  } catch (error) {
+    console.error('Contact form error:', error)
+    window.alert(
+      error.message || 'Unable to send your message. Please try again.'
+    )
+  } finally {
+    setSending(false)
   }
+}
 
   return (
     <section id="contact" className="py-32 relative" ref={ref}>
